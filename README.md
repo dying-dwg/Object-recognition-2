@@ -8,11 +8,11 @@ Last stage is using the template matching function (matchTemplate) to find the c
 ### Example of work
 > Main and modified image
 
-<img src="https://user-images.githubusercontent.com/66872084/199547033-0ff68a96-07dc-4707-8672-5b33989b8dc6.jpg" width="500"> <img src="https://user-images.githubusercontent.com/66872084/199547077-3eb6a776-cc17-483c-9d08-c6162e379a50.jpg" width="500">
+<img src="https://user-images.githubusercontent.com/66872084/199547033-0ff68a96-07dc-4707-8672-5b33989b8dc6.jpg" width="400"> <img src="https://user-images.githubusercontent.com/66872084/199547077-3eb6a776-cc17-483c-9d08-c6162e379a50.jpg" width="400">
 
 > Main and modified image (polar-logarithmic CS)
 
-<img src="https://user-images.githubusercontent.com/66872084/199549324-280efe5d-8b3b-4f39-a11c-af7d066b50fa.jpg" width="500"> <img src="https://user-images.githubusercontent.com/66872084/199549333-5c22da8e-07a7-4022-baf5-f5ce60b39368.jpg" width="500">
+<img src="https://user-images.githubusercontent.com/66872084/199549324-280efe5d-8b3b-4f39-a11c-af7d066b50fa.jpg" width="400"> <img src="https://user-images.githubusercontent.com/66872084/199549333-5c22da8e-07a7-4022-baf5-f5ce60b39368.jpg" width="400">
 
 > Correlation field
 <img src="https://user-images.githubusercontent.com/66872084/199550113-af52d347-eb47-4eab-95df-a289fd2fd46d.jpg" width="500">
