@@ -32,9 +32,11 @@ def CorrImage(w, h, polar, copyIM):
 
     for i, line in enumerate(polar):
         for j, pixel in enumerate(line):
-            BrigIm[i][j] = pixel #left
-            BrigIm[i][j + w] = pixel #right
-
+            if pixel != 0:
+                BrigIm[i][j] = pixel #left
+                BrigIm[i][j + w] = pixel #right
+    # кросс-корреляция между изображениями без среднего, отнормированная в пределах -1..1
+    # коэффициента корреляции Пирсона - метод параметрической статистики, позволяющий определить наличие или отсутствие линейной связи между двумя количественными показателями
     result = cv.matchTemplate(BrigIm, copyIM, cv.TM_CCOEFF_NORMED)
 
     # + приведение к общей яркости
