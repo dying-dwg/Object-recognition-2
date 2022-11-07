@@ -101,6 +101,7 @@ if __name__ == '__main__':
     polar = ConvertPolar(mainIM, center, "PolarMain")
     copyIM = RotatePolarImage(mainIM, center, K, fi, w, h)
 
-
     CorrImage(w, h, polar, copyIM)
+
+    print("--- Время работы: %s ---" % (time.time() - start_time))
     ShowImage()
